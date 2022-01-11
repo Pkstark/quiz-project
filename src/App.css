@@ -1,38 +1,299 @@
-.App {
-  text-align: center;
+    /* Background Image */
+
+.pk{
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+}
+.bg{
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+}
+.bg1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 300px;
+    position: absolute;
+
+}
+.bg2{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 400px;
+    margin-left: 1000px;
+    position: absolute;
+}
+.bg3{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 400px;
+    margin-left: 900px;
+    position: absolute;
+}
+.bg4{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 1000px;
+    position: absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    /* Scroll Bar */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    width: 10px;
+    border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+    /* UserName */
+
+.username{
+    font-size: 30px;
+    text-align: center;
+    color: white;    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    /* Main Quiz Name */
+
+.add{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+    
+    /* Login Components */
+
+
+.des{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.des1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.des3{
+    border: 1px solid white;
+}
+
+.des4{
+    margin-left: 50px;
+    width: 200px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.des2{
+    font-size: 20px;
+    color:white;
+}
+
+
+ /* Start components :   */
+
+
+.head{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 30px;
+    width: 500px;
+    text-align: center;
+    background-color:transparent;
+    color: white;
+    position: relative;
+}
+
+.head1{
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bd{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.head2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.head3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+    /* Question Componenets */
+
+
+.style{
+    width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(50px);
+    border-radius: 15px;
+    color: white;
+    position: relative;
+}
+
+.style1{
+    width: 200px;
+    width: 370px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-left: 5px;
+    font-size: 20px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: white;
+}
+
+.style2{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 250px;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.style3{
+    color: red;
+}
+
+.style4{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.style5{
+    border: 1px solid black;
+}
+
+
+
+        /* Answer Components */
+
+
+.design{
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(20px);
+    padding: 50px;
+    border-radius: 15px;
+    width: 500px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+}
+
+.design1{
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+}
+
+.design2{
+    border: 1px solid white;
+    width: 170px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin-left: 40px;
+    padding: 10px;
+    margin-left: 12px;
+}
+
+.design3{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.design4{
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 1;
+    color: white;
+}
+
+.design5{
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 3;
+    color: white;
+}
+
+.design6{
+    border: 1px solid black;
+}
+
+.design7{
+    color: white;
+}
+
+.design8{
+    border: 1px solid white;
+    width: 170px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin-left: 40px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+
+/* Results */
+
+.br{
+    border: 2px solid white;
 }
